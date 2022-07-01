@@ -78,3 +78,27 @@ body{
     background: aliceblue;
     border-radius: 50%;
 }
+
+.Slider-button__back, .Slider-button__next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.Slider-button__next {
+    right: 10px;
+}
+
+.Slider-button__next:hover, .Slider-button__back:hover {
+    color: orange;
+    transition: 0.3s;
+
+}
+
+.Slider-button__back {
+    left: 10px;
+}
